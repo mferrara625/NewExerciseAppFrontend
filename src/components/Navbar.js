@@ -15,12 +15,12 @@ const Navbar = () => {
             }} px="20px">
             <Link to="/">
                 <img src={Logo} alt="logo" style={{
-                    width: '168px', height: '168px', margin: '0 20px'
+                    width: '200px', height: '200px', margin: '0 2px'
                 }} />
             </Link>
             <Stack
                 direction="row"
-                gap= '40px'
+                gap= '20px'
                 fontSize="24px"
                 alignItems="flex-end"
             >
